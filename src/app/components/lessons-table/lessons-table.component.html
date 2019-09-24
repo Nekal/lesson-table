@@ -1,0 +1,22 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Наименование Дисциплины</th>
+    <th scope="col">Количество часов</th>
+    <th scope="col">экзамен</th>
+    <th scope="col">зачет</th>
+    <th scope="col">КП, КР</th>
+    <th scope="col">Дата Сдачи</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let lesson of lessonList">
+      <th scope="row">{{lesson.name}}</th>
+      <td>{{lesson.countHours}}</td>
+      <td>{{lesson.hasExam}}</td>
+      <td>{{lesson.hasOffset}}</td>
+      <td>{{lesson.hasTest}}</td>
+      <td>{{getDataFormat(lesson.data)}}</td>
+    </tr>
+  </tbody>
+</table>
