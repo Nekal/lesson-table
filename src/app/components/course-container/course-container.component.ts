@@ -1,11 +1,12 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 import {CourseService} from '../../services/course.service';
 import {Course} from '../../interfaces/course.interface';
 
 @Component({
   selector: 'app-course-container',
   templateUrl: 'course-container.component.html',
-  styleUrls: ['course-container.component.css']
+  styleUrls: ['course-container.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CourseContainerComponent implements OnInit  {
   public courseList: Course[];

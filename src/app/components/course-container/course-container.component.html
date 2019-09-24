@@ -1,10 +1,7 @@
 <div class="course-container">
   <div *ngFor="let course of courseList">
-    <div *ngFor="let session of course.sessions">
-      <app-lessons-table
-        [lessonList]="session.lessons"
-      ></app-lessons-table>
-    </div>
+    <app-course-item
+      [course]="course"
+    ></app-course-item>
   </div>
 </div>
-

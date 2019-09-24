@@ -5,12 +5,18 @@ import {AppComponent} from './app.component';
 import {CourseService} from './services/course.service';
 import {LessonsTableComponent} from './components/lessons-table/lessons-table.component';
 import {CourseContainerComponent} from './components/course-container/course-container.component';
+import {CourseItemComponent} from './components/course-item/course-item.component';
+import {SessionItemComponent} from './components/session-item/session-item.component';
+import {SessionContainerComponent} from './components/session-container/session-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LessonsTableComponent,
-    CourseContainerComponent
+    CourseContainerComponent,
+    CourseItemComponent,
+    SessionItemComponent,
+    SessionContainerComponent
   ],
   imports: [
     BrowserModule
