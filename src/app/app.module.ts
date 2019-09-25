@@ -10,6 +10,7 @@ import {CourseItemComponent} from './components/course-item/course-item.componen
 import {SessionItemComponent} from './components/session-item/session-item.component';
 import {SessionContainerComponent} from './components/session-container/session-container.component';
 import {CheckIconComponent} from './shared/check-icon/check-icon.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import {CheckIconComponent} from './shared/check-icon/check-icon.component';
   ],
   imports: [
     BrowserModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    HttpClientModule,
+
   ],
   providers: [
     CourseService
