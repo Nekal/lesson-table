@@ -10,7 +10,7 @@ import {Course} from '../../interfaces/course.interface';
 export class CourseItemComponent {
   @Input() course: Course;
 
-  public isShowContent: boolean = true;
+  public isShowContent: boolean = false;
 
   public onToggle(): void {
     this.isShowContent = !this.isShowContent;

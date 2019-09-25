@@ -1,4 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
@@ -8,6 +9,7 @@ import {CourseContainerComponent} from './components/course-container/course-con
 import {CourseItemComponent} from './components/course-item/course-item.component';
 import {SessionItemComponent} from './components/session-item/session-item.component';
 import {SessionContainerComponent} from './components/session-container/session-container.component';
+import {CheckIconComponent} from './shared/check-icon/check-icon.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +18,12 @@ import {SessionContainerComponent} from './components/session-container/session-
     CourseContainerComponent,
     CourseItemComponent,
     SessionItemComponent,
-    SessionContainerComponent
+    SessionContainerComponent,
+    CheckIconComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFontAwesomeModule
   ],
   providers: [
     CourseService

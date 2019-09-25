@@ -1,7 +1,9 @@
 <div class="course-container">
   <div *ngFor="let course of courseList">
-    <app-course-item
-      [course]="course"
-    ></app-course-item>
+    <div class="course-body">
+      <app-course-item
+        [course]="course"
+      ></app-course-item>
+    </div>
   </div>
 </div>

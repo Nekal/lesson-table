@@ -11,11 +11,11 @@
   </thead>
   <tbody>
     <tr *ngFor="let lesson of lessonList">
-      <th scope="row">{{lesson.name}}</th>
+      <td>{{lesson.name}}</td>
       <td>{{lesson.countHours}}</td>
-      <td>{{lesson.hasExam}}</td>
-      <td>{{lesson.hasOffset}}</td>
-      <td>{{lesson.hasTest}}</td>
+      <td> <app-check-icon [isActive]="lesson.hasExam"> </app-check-icon></td>
+      <td> <app-check-icon [isActive]="lesson.hasOffset"> </app-check-icon></td>
+      <td> <app-check-icon [isActive]="lesson.hasTest"> </app-check-icon></td>
       <td>{{getDataFormat(lesson.data)}}</td>
     </tr>
   </tbody>

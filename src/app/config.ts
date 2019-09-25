@@ -14,7 +14,31 @@ export const courseList: Course[] = [
             hasOffset: false,
             hasTest: true,
             data: new Date()
-          }
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
         ]
       },
       {
@@ -27,9 +51,270 @@ export const courseList: Course[] = [
             hasOffset: false,
             hasTest: true,
             data: new Date()
-          }
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
         ]
-      }
+      },
+    ]
+  },
+  {
+    name: '2 курс',
+    sessions: [
+      {
+        name: 'Зимняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
+      {
+        name: 'Летняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
+    ]
+  },
+  {
+    name: '3 курс',
+    sessions: [
+      {
+        name: 'Зимняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
+      {
+        name: 'Летняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
+    ]
+  },
+  {
+    name: '4 курс',
+    sessions: [
+      {
+        name: 'Зимняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
+      {
+        name: 'Летняя',
+        lessons: [
+          {
+            name: 'Математика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Физика',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Английски',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+          {
+            name: 'Веб разработка',
+            countHours: 12,
+            hasExam: true,
+            hasOffset: false,
+            hasTest: true,
+            data: new Date()
+          },
+        ]
+      },
     ]
   }
 ];
