@@ -2,6 +2,7 @@ import {Course} from './interfaces/course.interface';
 
 export const courseList: Course[] = [
   {
+    id: 1,
     name: '1 курс',
     sessions: [
       {
@@ -81,6 +82,7 @@ export const courseList: Course[] = [
     ]
   },
   {
+    id: 2,
     name: '2 курс',
     sessions: [
       {
@@ -160,6 +162,7 @@ export const courseList: Course[] = [
     ]
   },
   {
+    id: 3,
     name: '3 курс',
     sessions: [
       {
@@ -239,6 +242,7 @@ export const courseList: Course[] = [
     ]
   },
   {
+    id: 4,
     name: '4 курс',
     sessions: [
       {

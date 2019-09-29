@@ -11,6 +11,7 @@ import {SessionItemComponent} from './components/session-item/session-item.compo
 import {SessionContainerComponent} from './components/session-container/session-container.component';
 import {CheckIconComponent} from './shared/check-icon/check-icon.component';
 import {HttpClientModule} from '@angular/common/http';
+import {CollapseService} from './services/collapse.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {HttpClientModule} from '@angular/common/http';
 
   ],
   providers: [
-    CourseService
+    CourseService,
+    CollapseService
   ],
   bootstrap: [AppComponent]
 })

@@ -7,7 +7,7 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LessonsTableComponent {
-  @Input() lessonList: any[];
+  @Input() public lessonList: any[];
 
   public getDataFormat(date: Date): string {
     return date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);

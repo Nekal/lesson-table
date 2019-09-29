@@ -4,8 +4,32 @@
 
 .card {
   border-bottom: 1px solid rgba(0,0,0,.125) !important;
+  color: #007bff;
+
 }
 
 .card-header {
+  padding-bottom: 0;
+  padding-top: 0;
+  height: 50px;
+}
+
+a {
   cursor: pointer;
+  display: block;
+  width: 97.5%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pink-icon {
+  position: absolute;
+  right: 15px;
+  vertical-align: middle;
+  top: 16px;
+}
+
+.unset {
+  transform: rotate(90deg);
+  color: #83898ec7;
 }

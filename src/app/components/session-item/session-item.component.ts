@@ -8,5 +8,5 @@ import {Session} from '../../interfaces/session.interface';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SessionItemComponent {
-  @Input() session: Session;
+  @Input() public session: Session;
 }
